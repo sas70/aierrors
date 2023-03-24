@@ -1,3 +1,32 @@
+# git instructions after cloning a project
+
+git init (to Initialize an empty Git repository)
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sas70/hf_transf.git
+git push -u origin main
+omar (git add, git commit, git push)
+
+# git init for a new project
+
+git init
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sas70/ai.git
+git push -u origin main
+
+git push --set-upstream origin main
+
+# Create and activate a virtual environment
+
+python3 -m venv ai # replace myEnvName with the name of your virtual environment
+
+source ai/bin/activate
+
+
+
+
+
 <div align="center">
   <div>
     <img src=".github/screenshot.png" alt="AI Commits"/>
